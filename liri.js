@@ -115,14 +115,11 @@ function whatever() {
             userInput = dataArr[1];
             song();
         }
-        else if (dataArr[0] === "concert-this") {
-            userInput = dataArr[1];
-            concert();
-        }
         else if (dataArr[0] === "movie-this") {
             userInput = dataArr[1];
             movie();
         }
+        // else if for concert would be written here as well
     });
 }
 
