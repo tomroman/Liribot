@@ -48,7 +48,7 @@ switch (userChoice) {
         break; 
     case ("movie-this"):
         if (process.argv[3] === undefined) {
-            userInput = "Mr. Nobody"
+            userInput = "die hard"
         } else {
             input();
         }
